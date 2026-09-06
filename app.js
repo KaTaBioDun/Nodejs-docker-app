@@ -3,7 +3,7 @@ const express = require('express');
 const os = require('os');
 
 const app = express();
-const PORT = process.env.PORT  3000;
+const PORT = process.env.PORT ||  3000;
 const startTime = Date.now();
 let heartbeats = 0;
 
